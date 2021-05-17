@@ -1,0 +1,19 @@
+.projetos p {
+    font-size: 1.3rem;
+    color: var(--blue);
+    font-family: var(--fonteMontserrat);
+}
+
+/* TITULO - Se o screen size é 576px wide ou menor, set font-size para tam abaixo */
+
+@media screen and (max-width: 576px) {
+
+    #titulo {
+        font-size: 30px;
+    }
+}
+
+/* ARROW */
+/* #arrow{
+    visibility: hidden;
+} */

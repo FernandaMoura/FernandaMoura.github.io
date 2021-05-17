@@ -1,0 +1,137 @@
+        /* Cores padrão website */
+        :root {
+            --blue: #101022;
+            --grey: #54546e;
+            --lightBlue: #34346e;
+            --white: #fff;
+            --fonteMontserrat: 'Montserrat', sans-serif;
+        }
+         /* FONTE WEBSITE */
+        body {
+            font-family: var(--fonteMontserrat);
+        }
+
+        /* INICIO HEADER */
+        .cabecalho {
+            background-color: var(--blue);
+        }
+
+        .cabecalho a {
+            font-size: 1.2rem;
+            font-family: var(--fonteMontserrat);
+        }
+
+        .cabecalho a:hover {
+            font-size: 1.4rem;
+        }
+
+        #btnNavegacao {
+            background-color: white;
+        }
+
+        /* FIM HEADER */
+
+        /*  TEXTOS TITULOS E PARAGRAFOS*/
+        h1,
+        h5 {
+            font-family: var(--fonteMontserrat);
+            color: var(--blue);
+        }
+
+        p,
+        aside {
+            font-size: 1.3rem;
+            font-family: var(--fonteMontserrat);
+        }
+
+        .valores {
+            font-size: 1.3rem;
+            color: var(--blue);
+            font-family: var(--fonteMontserrat);
+            font-style: oblique;
+        }
+
+        /*  FIM TEXTOS TITULOS E PARAGRAFOS*/
+
+
+        /* IMAGENS */
+        #vistaD50,
+        #imgServicos {
+        opacity: 0.5;
+        }
+
+        /* TITULO SOBRE - Se o screen size é 576px wide ou menor, set font-size para tam abaixo */
+
+        @media screen and (max-width: 576px) {
+
+            #pasillo,
+            .titulo {
+                font-size: 60px;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+
+            .servicos {
+                font-size: 25px;
+            }
+        }
+
+        /* FIM TITUTLO SOBRE */
+
+        /* FORMULARIO */
+        section {
+            font-family: var(--fonteMontserrat);
+            color: var(--blue);
+        }
+        /* FIM FORMULARIO */
+
+        /* RODAPE estilo apenas CSS */
+        footer {
+            font-family: var(--fonteMontserrat);
+            color: var(--blue);
+            text-align: center;
+            margin-top: 80px;
+            font-weight: 600;
+        }
+        /* FIM RODAPE */
+
+        /* CARROSSEL SERVICOS */
+        #servicos {
+            border-radius: 10px;
+            margin-top: 5%;
+            font-family: var(--fonteMontserrat);
+        }
+
+        #servicos img {
+            height: 300px;
+        }
+
+        #projetos img {
+            width: 500px;
+            height: auto;
+        }
+
+        /*  CARROSSEL - Se o screen size é 600px wide ou menor, set font-size para tam abaixo */
+
+        @media screen and (max-width: 768px) {
+            #servicos h2 {
+                font-size: 30px;
+            }
+
+            #servicos p {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            #servicos h2 {
+                font-size: 18px;
+            }
+
+            #servicos p {
+                font-size: 14px;
+            }
+        }
+
+        /* FIM CARROSSEL SERVICOS */

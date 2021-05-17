@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+}
+
+/* #vistaD50{
+    opacity: 0.5;
+} */
+
+.scrollTop {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    /* z-index: 100000; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scrollTop.active {
+    visibility: visible;
+    opacity: 1;
+}
